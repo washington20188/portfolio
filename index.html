@@ -39,9 +39,12 @@
         <h2 class="sobre-titulo">Sobre Mim</h2>
         <div class="sobre-caixa">
             <p class="sobre-paragrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sunt autem, sequi architecto fugit ad et
-                dolore perspiciatis, aliquam officiis nemo quas odio enim facere optio. Fuga alias consectetur
-                architecto.
+                Washington Monteiro, é formado em Análise e Desenvolvimento de Sistemas e atualmente 
+                atua como profissional de Suporte de TI na Secretaria Municipal de Educação de Senador Guiomard.
+                Ao longo de sua carreira, destacou-se pela implantação de servidores dearquivos na Secretaria
+                e pelo desenvolvimento e implementação de sistemas voltados para a Rede Municipal
+                de Educação, contribuindo de forma significativa para a modernização e eficiência dos processos
+                educacionais..
             </p>
         </div>
     </section>
@@ -62,7 +65,8 @@
                 <img src="./img/projeto2.png" alt="Projeto 1" class="projetos-imagem">
                 <div class="caixa-texto-projetos">
                     <h3 class="info-projetos">Página de Viagens</h3>
-                    <p class="paragrafo-projetos">Uma página interativa com reteiros de viagens utilizando HTML e CSS.</p>
+                    <p class="paragrafo-projetos">Uma página interativa com reteiros de viagens utilizando HTML e CSS.
+                    </p>
                 </div>
             </div>
 
@@ -70,7 +74,8 @@
                 <img src="./img/projeto3.png" alt="Projeto 1" class="projetos-imagem">
                 <div class="caixa-texto-projetos">
                     <h3 class="info-projetos">Microsoft</h3>
-                    <p class="paragrafo-projetos">Pagina da Microsoft criada para demonstrar conhecimentos utilizando HTML e CSS.</p>
+                    <p class="paragrafo-projetos">Pagina da Microsoft criada para demonstrar conhecimentos utilizando
+                        HTML e CSS.</p>
                 </div>
             </div>
         </div>
@@ -93,22 +98,22 @@
     <script>
         function enviarWhats(event) {
             event.preventDefault()
-            
-        
-        const nome = document.getElementById('nome').value;
-        const mensagem = document.getElementById('mensagem').value;
-        const telefone = '5568999337629'
 
-        const texto = `Olá! meu nome é ${nome}, ${mensagem}`
-        const msgFormatada = encodeURIComponent(texto)
 
-        const url = `https://wa.me/${telefone}?text=${msgFormatada}`
+            const nome = document.getElementById('nome').value;
+            const mensagem = document.getElementById('mensagem').value;
+            const telefone = '5568999337629'
 
-        window.open(url, '_blank')
+            const texto = `Olá! meu nome é ${nome}, ${mensagem}`
+            const msgFormatada = encodeURIComponent(texto)
+
+            const url = `https://wa.me/${telefone}?text=${msgFormatada}`
+
+            window.open(url, '_blank')
         }
     </script>
 
-    
+
 
 </body>
 
